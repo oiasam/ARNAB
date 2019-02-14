@@ -8,9 +8,9 @@ This implementation is based on Wi5 open-source code (https://github.com/Wi5/odi
 * If it is your first time with OpenWRT, flash Chaos Calmer factory `.bin` image from `ARNAB/tierOne/AP/images`
 * If you already have OpenWRT system, perform an upgrade by flashing a sysupgrade image from `ARNAB/tierOne/AP/images`
 * If you want to create your own OpenWRT image, you please do the following:
-- Run `./config.sh` to conifgure OpenWRT firmware with Click software router and driver pactches for TL-WR1043ND
-- Edit `openwrt/target/linux/ar71xx/image/Makefile` by changing WR1043V2 flash from `8M` to `16M`.
-- Then run `make -j 4` from `/openwrt`
+    * Run `./config.sh` to conifgure OpenWRT firmware with Click software router and driver pactches for TL-WR1043ND
+    * Edit `openwrt/target/linux/ar71xx/image/Makefile` by changing WR1043V2 flash from `8M` to `16M`.
+    * Then run `make -j 4` from `/openwrt`
 
 #### **Step 2: USB support**
 * **Install the following packages** 
