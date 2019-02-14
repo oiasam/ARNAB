@@ -4,7 +4,7 @@ Original images from OpenWRT repository (https://archive.openwrt.org/snapshots/t
 Those are basic images and you need to:
 * Move Click binaries to the router after flashing.
 * Install the following packages
-  * nano
+  * nano (optional)
   * tcpdump
   * openvswitch
   * hostapd
