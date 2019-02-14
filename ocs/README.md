@@ -2,10 +2,10 @@
 
 
 ### Install Controller
-* Prepare a machine for Floodlight Controller - Tested in Ubuntu 16.04. 
-```sudo apt install default-jdk ant```
-```cd ocs/controller```
-```ant```
+Prepare a machine for Floodlight Controller - Tested in Ubuntu 16.04. 
+* `sudo apt install default-jdk ant`
+* `cd ocs/controller`
+* `ant`
 ### Controller Configuration
 * Edit `floodlightdefault.properties` to look something like the following: 
     ```shell
