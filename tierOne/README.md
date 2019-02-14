@@ -1,8 +1,8 @@
-User Connectivity Migration
+## User Connectivity Migration
 
 This implementation is based on Wi5 open-source code (https://github.com/Wi5/odin-wi5)
 
-## AP Agent
+### AP Agent
 #### **Step 1: Flash OpenWRT image with the needed packages**
 
 * If it is your first time with OpenWRT, flash Chaos Calmer factory `.bin` image from `ARNAB/tierOne/AP/images`
