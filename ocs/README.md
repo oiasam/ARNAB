@@ -2,14 +2,14 @@
 
 
 ### Install Controller
-* Prepare a machine for Floodlight Controller (Odin Master) - Tested in Ubuntu 16.04. 
+* Prepare a machine for Floodlight Controller - Tested in Ubuntu 16.04. 
 ```sudo apt install default-jdk ant```
 ```cd ocs/controller```
 ```ant```
 ### Controller Configuration
 * Edit `floodlightdefault.properties` to look something like the following: 
     ```shell
-    ~/odin-wi5-controller/src/main/resources/floodlightdefault.properties
+    ~/ARNAB/ocs/controller/src/main/resources/floodlightdefault.properties
     floodlight.modules = net.floodlightcontroller.storage.memory.MemoryStorageSource,\
     net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher,\
     net.floodlightcontroller.learningswitch.LearningSwitch,\
@@ -25,7 +25,7 @@
     net.floodlightcontroller.odin.master.OdinMaster.poolFile = poolfile
     net.floodlightcontroller.odin.master.OdinMaster.clientList = odin_client_list
     ```
-* Prepare poolFile by editting `~/odin-wi5-controller/poolFile` to reflict the network settings and applications to be used
+* Prepare poolFile by editting `~/ARNAB/ocs/controller/poolFile` to reflict the network settings and applications to be used
     ```shell
     # Pool-1
     NAME pool-1
