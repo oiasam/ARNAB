@@ -359,7 +359,7 @@ opkg install nano tcpdump hostapd hostapd-utils openvswitch openvswitch-python o
     ```
 * Restart the network `/etc/init.d/network restart`
 * Trun off the AP, move the following filesfrom PC to the USB in `/mnt/sda1/`:
-    * [`click.zip`](https://github.com/oiasam/ARNAB/blob/master/tierOne/AP/Click/click.zip)
+    * `click.zip`from [here](https://github.com/oiasam/ARNAB/blob/master/tierOne/AP/Click/click.zip)
     * `agent-click-file-gen.py`
     * `start.sh`
 
